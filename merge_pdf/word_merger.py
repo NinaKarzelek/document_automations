@@ -1,6 +1,7 @@
 from pathlib import Path
 from PyPDF2 import PdfMerger, PdfReader  # pip install PyPDF2
 
+
 # Define input directory for the pdf files
 pdf_dir = Path(__file__).parent / "pdf_files"
 
